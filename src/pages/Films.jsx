@@ -31,7 +31,7 @@ export default function Films() {
             {
               film_source?.map((item, id)=>{
                 return(
-                  <div className="w-1/4 md:w-1/2 p-3" key={item?.id}>
+                  <div className="xl:w-1/4 md:w-1/2 p-3" key={item?.id}>
                       <div className="bg-gray-100 p-4 rounded-lg">
                         <img className="h-40 rounded w-full object-cover object-center mb-6" src={item?.avatar} alt="content"/>
                         <h3 className="tracking-widest text-indigo-500 text-[13px] font-medium title-font">{item?.movie_year}</h3>
