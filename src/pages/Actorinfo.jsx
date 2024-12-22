@@ -33,7 +33,7 @@ export default function Actorinfo() {
     useEffect(()=>{
         getInformation();
         getFilms();
-    }, [])
+    }, [getInformation, getFilms])
 
     if(loading) return <Loading />
     if(error) return <ErrorD />

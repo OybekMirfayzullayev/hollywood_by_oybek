@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar.jsx"
 import Footer from "./components/Footer.jsx";
 import { Outlet } from "react-router-dom";
 
-export default function () {
+export default function App() {
   return (
     
     <Fragment>
@@ -13,3 +13,4 @@ export default function () {
     </Fragment>
   );
 }
+
