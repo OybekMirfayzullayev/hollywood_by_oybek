@@ -40,7 +40,7 @@ export default function Main() {
           <main className="container py-8 px-4 mx-auto max-w-screen-xl py-16 px-6 ">
             <div className="mx-auto  text-center  flex flex-col items-center" >
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-black">Gollivud Aktryorlari</h2>
-                <p className="font-light w-[85%] text-center text-black mb-16 text-xl">
+                <p className="font-light w-[85%] text-center text-black mb-14 text-xl">
                 Gollivud aktyorlari o‘zining mahorati va ijrosi bilan kino sanoatida yirik ta’sirga ega. Ularning har biri o‘ziga xos xususiyatlari va ajoyib rollari bilan jahon kinosiga katta hissa qo‘shgan. Quyidagi aktyorlar esa, o‘zining o‘ziga xos yondashuvlari va talentlari bilan kino dunyosida ajralib turadi.
                 </p>
             </div>
