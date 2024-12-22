@@ -31,10 +31,10 @@ export default function Films() {
             {
               film_source?.map((item, id)=>{
                 return(
-                  <div className="xl:w-1/4 md:w-1/2 p-3" key={item?.id}>
+                  <div className="w-1/4 md:w-1/2 p-3" key={item?.id}>
                       <div className="bg-gray-100 p-4 rounded-lg">
                         <img className="h-40 rounded w-full object-cover object-center mb-6" src={item?.avatar} alt="content"/>
-                        <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">{item?.movie_year}</h3>
+                        <h3 className="tracking-widest text-indigo-500 text-[13px] font-medium title-font">{item?.movie_year}</h3>
                         <h2 className="text-lg text-gray-900 font-medium title-font mb-3">{item?.movie_name}</h2>
                         <p className="leading-relaxed text-base">Janr: {item?.genre}</p>
                         <p className="leading-relaxed text-base">Film reytingi: {item?.rate}</p>

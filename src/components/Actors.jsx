@@ -37,20 +37,20 @@ export default function Main() {
 
     return (
     <Fragment>
-        <main className="container py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+          <main className="container py-8 px-4 mx-auto max-w-screen-xl py-16 px-6 ">
             <div className="mx-auto  text-center  flex flex-col items-center" >
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-black">Gollivud Aktryorlari</h2>
-                <p className="font-light w-[85%] text-center text-black lg:mb-16 sm:text-xl">
+                <p className="font-light w-[85%] text-center text-black mb-16 text-xl">
                 Gollivud aktyorlari o‘zining mahorati va ijrosi bilan kino sanoatida yirik ta’sirga ega. Ularning har biri o‘ziga xos xususiyatlari va ajoyib rollari bilan jahon kinosiga katta hissa qo‘shgan. Quyidagi aktyorlar esa, o‘zining o‘ziga xos yondashuvlari va talentlari bilan kino dunyosida ajralib turadi.
                 </p>
             </div>
-            <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-1" data-aos="zoom-in">
+            <div className="grid gap-8 mb-6 mb-16 grid-cols-1" data-aos="zoom-in">
         
                 {
                     actor_source?.map((actor, id)=>{
                         
                         return(
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex hover:scale-[1.02] duration-[0.4s]">
+                        <div className="items-center bg-gray-50 rounded-lg shadow flex hover:scale-[1.02] duration-[0.4s]">
                                 <div className="w-[15%]" key={actor?.id}>
                                     <img className="w-full h-[200px] object-cover rounded-lg sm:rounded-none sm:rounded-l-lg"
                                     src={actor?.avatar}
